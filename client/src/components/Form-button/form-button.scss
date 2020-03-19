@@ -1,0 +1,38 @@
+.form-button {
+  min-width: 15rem;
+  width: auto;
+  height: 5rem;
+  letter-spacing: 0.5rem;
+  line-height: 5rem;
+  padding: 0 3.5rem 0 3.5rem;
+  font-size: 1.6rem;
+  background-color: #060023;
+  color: #fefcf9;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  transition: all .2s ease-in;
+  &:hover {
+    background-color: #150078;
+  }
+  &.google-bnt {
+    background-color: #2900ef;
+    color: #fefcf9;
+    transition: all .2s ease-in;
+    &:hover {
+      background-color: #6545ff;
+      color: #fefcf9;
+    }
+  }
+  &.cart-btn {
+    background-color: #f1efff;
+    color: #060023;
+    &:hover {
+      background-color: #060023; 
+      color: #f1efff;
+    }
+  }
+}

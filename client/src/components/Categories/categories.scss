@@ -1,0 +1,8 @@
+.categories {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  @include respond(point1-max) {
+    flex-direction: column;
+  }
+}

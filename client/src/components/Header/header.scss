@@ -1,0 +1,22 @@
+.header {
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  .logo {
+    font-size: 3.8rem;
+    margin-left: 2rem;
+    color: #090701;
+  }
+  .nav {
+    display: flex;
+  }
+  .nav__link {
+    margin-right: 2rem;
+    text-decoration: none;
+    color: #090701;
+    cursor: pointer;
+  }
+}

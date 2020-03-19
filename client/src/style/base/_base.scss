@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
+  @include respond(phone) { 
+    font-size: 50%; // 1rem = 8px
+  }
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fefcf9;
+  color: #060023;
+  padding: 2rem 3rem;
+}

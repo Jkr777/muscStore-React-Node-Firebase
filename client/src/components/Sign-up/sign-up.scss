@@ -1,0 +1,12 @@
+.sign-up {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  &__title {
+    letter-spacing: 0.1rem;
+  }
+  @include respond(point1-max) {
+    margin-top: 2rem;
+    width: 90%;
+  }
+}

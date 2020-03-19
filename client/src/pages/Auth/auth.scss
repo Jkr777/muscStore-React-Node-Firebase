@@ -1,0 +1,10 @@
+.auth {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  align-items: flex-start;
+  @include respond(point1-max) {
+    flex-direction: column;
+    align-items: center;
+  }
+}

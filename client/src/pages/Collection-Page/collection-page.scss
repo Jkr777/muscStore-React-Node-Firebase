@@ -1,0 +1,13 @@
+.collection-items {
+  display: flex;
+  flex-direction: column;
+  &__title {
+    letter-spacing: 0.1rem;
+    margin: 0 auto 1rem;
+  }
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
