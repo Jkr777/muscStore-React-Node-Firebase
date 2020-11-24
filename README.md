@@ -1,8 +1,5 @@
   ### frontEnd
 
-* For this project I used Visual Studio Code, my OS is Ubuntu 18.04.
-* heroku app link: https://djstore-react.herokuapp.com/
-
 * I experimented with firebase and react, creating a progressive web app. I used stripe API to handle demo payments. The authentication is provided by firebase(email/password or gmail). You can buy demo products and make a new account. You can add new products using a firebase function.
 
 * about:
